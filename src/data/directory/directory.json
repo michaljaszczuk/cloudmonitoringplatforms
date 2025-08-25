@@ -2,130 +2,204 @@
   {
     "id": "datadog",
     "title": "Datadog",
-    "image": {
-      "url": "/images/placeholder.svg",
-      "width": 48,
-      "height": 48
-    },
+    "image": "../images/calm.png",
     "featured": true,
     "tags": [
-      "full-stack",
-      "observability",
-      "apm",
-      "logs",
-      "metrics"
+      "featured",
+      "monitoring",
+      "observability"
     ],
-    "description": "A cloud monitoring and security platform that provides full-stack observability, with features for infrastructure, application performance, and log management.",
-    "link": "https://www.datadoghq.com"
+    "description": "Widely known for its extensive integrations, real-time dashboards, and full-stack observability (infrastructure, application performance, logs, etc.).",
+    "link": "https://www.datadoghq.com/"
   },
   {
     "id": "new-relic",
     "title": "New Relic",
-    "image": {
-      "url": "/images/placeholder.svg",
-      "width": 200,
-      "height": 36
-    },
+    "image": "../images/calm.png",
     "featured": true,
     "tags": [
+      "featured",
+      "monitoring",
       "observability",
-      "apm",
-      "real-user-monitoring",
-      "infrastructure"
+      "apm"
     ],
-    "description": "An all-in-one observability platform that helps engineers monitor, debug, and improve their entire stack, from the front end to the back end.",
-    "link": "https://newrelic.com"
+    "description": "An all-in-one observability platform with a generous free tier, making it attractive for both large companies and startups. It's particularly strong in Application Performance Monitoring (APM).",
+    "link": "https://newrelic.com/"
   },
   {
     "id": "dynatrace",
     "title": "Dynatrace",
-    "image": {
-      "url": "/images/placeholder.svg",
-      "width": 48,
-      "height": 48
-    },
-    "featured": false,
+    "image": "../images/calm.png",
+    "featured": true,
     "tags": [
-      "ai",
+      "featured",
+      "monitoring",
       "observability",
-      "automation",
-      "apm"
+      "ai"
     ],
-    "description": "An AI-powered observability platform that provides end-to-end visibility and automation for modern multi-cloud environments.",
-    "link": "https://www.dynatrace.com"
+    "description": "Known for its AI-powered automation and deep observability. It automatically discovers and maps your entire cloud environment.",
+    "link": "https://www.dynatrace.com/"
   },
   {
-    "id": "prometheus",
-    "title": "Prometheus",
-    "image": {
-      "url": "/images/placeholder.svg",
-      "width": 48,
-      "height": 48
-    },
-    "featured": false,
+    "id": "splunk",
+    "title": "Splunk",
+    "image": "../images/calm.png",
+    "featured": true,
     "tags": [
-      "open-source",
-      "metrics",
-      "alerting",
-      "time-series-database"
+      "featured",
+      "monitoring",
+      "logging",
+      "security"
     ],
-    "description": "A leading open-source monitoring system and time series database, designed for the cloud-native world.",
-    "link": "https://prometheus.io"
+    "description": "A powerful platform for collecting, analyzing, and monitoring machine-generated data. It's a go-to for complex log management and security monitoring.",
+    "link": "https://www.splunk.com/"
   },
   {
-    "id": "grafana",
-    "title": "Grafana",
-    "image": {
-      "url": "/images/placeholder.svg",
-      "width": 100,
-      "height": 100
-    },
-    "featured": false,
+    "id": "logicmonitor",
+    "title": "LogicMonitor",
+    "image": "../images/calm.png",
+    "featured": true,
     "tags": [
-      "open-source",
-      "visualization",
-      "dashboards",
-      "analytics"
+      "featured",
+      "monitoring",
+      "saas",
+      "hybrid-cloud"
     ],
-    "description": "An open-source analytics and visualization platform that allows you to create, explore, and share interactive dashboards from a variety of data sources.",
-    "link": "https://grafana.com"
+    "description": "A SaaS-based platform that provides comprehensive visibility into complex IT infrastructure, especially for hybrid cloud environments.",
+    "link": "https://www.logicmonitor.com/"
+  },
+  {
+    "id": "amazon-cloudwatch",
+    "title": "Amazon CloudWatch",
+    "image": "../images/calm.png",
+    "tags": [
+      "cloud-native",
+      "aws",
+      "monitoring"
+    ],
+    "description": "The native monitoring and observability service for all AWS resources. It provides actionable insights to optimize application performance and manage resource utilization.",
+    "link": "https://aws.amazon.com/cloudwatch/"
+  },
+  {
+    "id": "google-cloud-operations",
+    "title": "Google Cloud Operations",
+    "image": "../images/calm.png",
+    "tags": [
+      "cloud-native",
+      "gcp",
+      "monitoring",
+      "logging",
+      "tracing"
+    ],
+    "description": "The integrated suite for monitoring, logging, and tracing applications and infrastructure on Google Cloud Platform (formerly Stackdriver).",
+    "link": "https://cloud.google.com/products/operations"
   },
   {
     "id": "azure-monitor",
     "title": "Azure Monitor",
-    "image": {
-      "url": "/images/placeholder.svg",
-      "width": 60,
-      "height": 60
-    },
-    "featured": false,
+    "image": "../images/calm.png",
     "tags": [
-      "azure",
-      "microsoft",
       "cloud-native",
-      "logging",
-      "metrics"
+      "azure",
+      "monitoring"
     ],
-    "description": "A comprehensive monitoring solution for collecting, analyzing, and responding to monitoring data from your cloud and on-premises environments within Microsoft Azure.",
-    "link": "https://azure.microsoft.com/en-us/products/monitor"
+    "description": "Microsoft's solution for collecting, analyzing, and acting on telemetry data from your Azure and on-premises environments.",
+    "link": "https://azure.microsoft.com/en-us/products/monitor/"
   },
   {
-    "id": "aws-cloudwatch",
-    "title": "AWS CloudWatch",
-    "image": {
-      "url": "/images/placeholder.svg",
-      "width": 64,
-      "height": 64
-    },
-    "featured": false,
+    "id": "prometheus",
+    "title": "Prometheus",
+    "image": "../images/calm.png",
     "tags": [
-      "aws",
-      "amazon",
-      "cloud-native",
-      "metrics",
-      "logs"
+      "open-source",
+      "monitoring",
+      "alerting",
+      "cloud-native"
     ],
-    "description": "An AWS service that provides monitoring and observability for your cloud resources and applications on AWS, on premises, and on other clouds.",
-    "link": "https://aws.amazon.com/cloudwatch/"
+    "description": "An open-source systems monitoring and alerting toolkit built for dynamic cloud environments and microservices. It's often paired with Grafana for visualization.",
+    "link": "https://prometheus.io/"
+  },
+  {
+    "id": "grafana",
+    "title": "Grafana",
+    "image": "../images/calm.png",
+    "tags": [
+      "open-source",
+      "visualization",
+      "observability"
+    ],
+    "description": "An open-source data visualization and analytics tool that connects to a wide variety of data sources, including Prometheus. It is a key component of the 'Grafana Stack' for observability.",
+    "link": "https://grafana.com/"
+  },
+  {
+    "id": "zabbix",
+    "title": "Zabbix",
+    "image": "../images/calm.png",
+    "tags": [
+      "open-source",
+      "monitoring"
+    ],
+    "description": "A free and open-source enterprise-class monitoring solution that can be used for network, server, and application monitoring.",
+    "link": "https://www.zabbix.com/"
+  },
+  {
+    "id": "nagios",
+    "title": "Nagios",
+    "image": "../images/calm.png",
+    "tags": [
+      "open-source",
+      "monitoring",
+      "alerting"
+    ],
+    "description": "A highly customizable open-source monitoring system known for its alerting capabilities for servers, applications, and services.",
+    "link": "https://www.nagios.org/"
+  },
+  {
+    "id": "solarwinds",
+    "title": "SolarWinds",
+    "image": "../images/calm.png",
+    "tags": [
+      "specialized",
+      "monitoring",
+      "it-management"
+    ],
+    "description": "Offers a suite of IT management and monitoring tools, including solutions for network performance, servers, and applications.",
+    "link": "https://www.solarwinds.com/"
+  },
+  {
+    "id": "site24x7",
+    "title": "Site24x7",
+    "image": "../images/calm.png",
+    "tags": [
+      "specialized",
+      "monitoring",
+      "saas"
+    ],
+    "description": "A cost-effective, all-in-one monitoring solution for websites, servers, and cloud infrastructure.",
+    "link": "https://www.site24x7.com/"
+  },
+  {
+    "id": "sematext",
+    "title": "Sematext",
+    "image": "../images/calm.png",
+    "tags": [
+      "specialized",
+      "monitoring",
+      "logging"
+    ],
+    "description": "An all-in-one monitoring and logging solution with a strong focus on real-time visibility.",
+    "link": "https://sematext.com/"
+  },
+  {
+    "id": "appdynamics",
+    "title": "AppDynamics",
+    "image": "../images/calm.png",
+    "tags": [
+      "specialized",
+      "apm",
+      "monitoring"
+    ],
+    "description": "A platform with a strong focus on APM and correlating IT performance with business metrics.",
+    "link": "https://www.appdynamics.com/"
   }
 ]
