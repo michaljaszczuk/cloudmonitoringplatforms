@@ -1,161 +1,131 @@
 [
   {
-    "id": "calm",
-    "title": "Calm",
-    "image": "../images/calm.png",
+    "id": "datadog",
+    "title": "Datadog",
+    "image": {
+      "url": "/images/placeholder.svg",
+      "width": 48,
+      "height": 48
+    },
     "featured": true,
     "tags": [
-      "breathing",
-      "sleep",
-      "meditation"
+      "full-stack",
+      "observability",
+      "apm",
+      "logs",
+      "metrics"
     ],
-    "description": "Offers guided meditations, sleep stories, and calming music to help users relax and improve sleep.",
-    "link": "https://minteddirectory.com"
+    "description": "A cloud monitoring and security platform that provides full-stack observability, with features for infrastructure, application performance, and log management.",
+    "link": "https://www.datadoghq.com"
   },
   {
-    "id": "headspace",
-    "title": "Squirtle",
-    "image": "../images/007.png",
+    "id": "new-relic",
+    "title": "New Relic",
+    "image": {
+      "url": "/images/placeholder.svg",
+      "width": 200,
+      "height": 36
+    },
+    "featured": true,
     "tags": [
-      "breathing",
-      "sleep",
-      "meditation"
+      "observability",
+      "apm",
+      "real-user-monitoring",
+      "infrastructure"
     ],
-    "description": "Provides a variety of guided meditations, sleep content, and mindfulness exercises for daily use.",
-    "link": "https://minteddirectory.com"
+    "description": "An all-in-one observability platform that helps engineers monitor, debug, and improve their entire stack, from the front end to the back end.",
+    "link": "https://newrelic.com"
   },
   {
-    "id": "insight-timer",
-    "title": "Insight Timer",
-    "image": "",
-    "description": "Features a vast library of guided meditations, talks, and music tracks from teachers worldwide.",
-    "link": "https://minteddirectory.com"
-  },
-  {
-    "id": "buddhify",
-    "title": "Buddhify",
-    "image": "",
-    "description": "Customizable meditation sessions for various situations, with a one-time payment model.",
-    "link": "https://minteddirectory.com"
-  },
-  {
-    "id": "smiling-mind",
-    "title": "Smiling Mind",
-    "image": "",
-    "description": "A non-profit app designed by psychologists, offering mindfulness programs for different age groups and settings.",
-    "link": "https://minteddirectory.com"
-  },
-  {
-    "id": "meditopia",
-    "title": "Meditopia",
+    "id": "dynatrace",
+    "title": "Dynatrace",
+    "image": {
+      "url": "/images/placeholder.svg",
+      "width": 48,
+      "height": 48
+    },
+    "featured": false,
     "tags": [
-      "breathing",
-      "meditation"
+      "ai",
+      "observability",
+      "automation",
+      "apm"
     ],
-    "image": "",
-    "description": "Focuses on sleep and stress reduction with guided meditations in multiple languages.",
-    "link": "https://minteddirectory.com"
+    "description": "An AI-powered observability platform that provides end-to-end visibility and automation for modern multi-cloud environments.",
+    "link": "https://www.dynatrace.com"
   },
   {
-    "id": "happier",
-    "title": "10% Happier",
+    "id": "prometheus",
+    "title": "Prometheus",
+    "image": {
+      "url": "/images/placeholder.svg",
+      "width": 48,
+      "height": 48
+    },
+    "featured": false,
     "tags": [
-      "yoga",
-      "meditation"
+      "open-source",
+      "metrics",
+      "alerting",
+      "time-series-database"
     ],
-    "image": "",
-    "description": "Teaches meditation through videos, guided sessions, and a personal coaching feature.",
-    "link": "https://minteddirectory.com"
+    "description": "A leading open-source monitoring system and time series database, designed for the cloud-native world.",
+    "link": "https://prometheus.io"
   },
   {
-    "id": "simple-habit",
-    "title": "Simple Habit",
-    "image": "",
-    "description": "Offers short, 5-minute meditations for busy individuals, with sessions led by mindfulness experts.",
-    "link": "https://minteddirectory.com"
+    "id": "grafana",
+    "title": "Grafana",
+    "image": {
+      "url": "/images/placeholder.svg",
+      "width": 100,
+      "height": 100
+    },
+    "featured": false,
+    "tags": [
+      "open-source",
+      "visualization",
+      "dashboards",
+      "analytics"
+    ],
+    "description": "An open-source analytics and visualization platform that allows you to create, explore, and share interactive dashboards from a variety of data sources.",
+    "link": "https://grafana.com"
   },
   {
-    "id": "aura",
-    "title": "Aura",
-    "image": "",
-    "description": "Personalized mindfulness meditations, stories, and coaching to reduce stress and anxiety.",
-    "link": "https://minteddirectory.com"
+    "id": "azure-monitor",
+    "title": "Azure Monitor",
+    "image": {
+      "url": "/images/placeholder.svg",
+      "width": 60,
+      "height": 60
+    },
+    "featured": false,
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud-native",
+      "logging",
+      "metrics"
+    ],
+    "description": "A comprehensive monitoring solution for collecting, analyzing, and responding to monitoring data from your cloud and on-premises environments within Microsoft Azure.",
+    "link": "https://azure.microsoft.com/en-us/products/monitor"
   },
   {
-    "id": "breath",
-    "title": "Breethe",
-    "image": "",
-    "description": "Provides guided meditations, inspirational talks, and supportive community features.",
-    "link": "https://minteddirectory.com"
-  },
-  {
-    "id": "mylife",
-    "title": "MyLife Meditation",
-    "image": "",
-    "description": "Offers mood tracking and personalized meditation recommendations based on user emotions.",
-    "link": "https://minteddirectory.com"
-  },
-  {
-    "id": "waking-up",
-    "title": "Waking Up",
-    "image": "",
-    "description": "Created by neuroscientist Sam Harris, offering guided meditations and philosophical insights.",
-    "link": "https://minteddirectory.com"
-  },
-  {
-    "id": "medito",
-    "title": "Medito",
-    "image": "",
-    "description": "A free meditation app with a variety of guided sessions and customizable features.",
-    "link": "https://minteddirectory.com"
-  },
-  {
-    "id": "healthy-minds-program",
-    "title": "Healthy Minds Program",
-    "image": "",
-    "description": "Focuses on increasing awareness and well-being through guided meditations and podcast-style content.",
-    "link": "https://minteddirectory.com"
-  },
-  {
-    "id": "sattva",
-    "title": "Sattva",
-    "image": "",
-    "description": "Offers guided meditations, chants, and mantras, with a focus on ancient Vedic principles.",
-    "link": "https://minteddirectory.com"
-  },
-  {
-    "id": "mindfullness",
-    "title": "Mindfulness.com",
-    "image": "",
-    "description": "Provides a range of mindfulness meditations and courses for beginners and experienced practitioners.",
-    "link": "https://minteddirectory.com"
-  },
-  {
-    "id": "oak",
-    "title": "Oak",
-    "image": "",
-    "description": "A free meditation and breathing app with customizable sessions and progress tracking.",
-    "link": "https://minteddirectory.com"
-  },
-  {
-    "id": "stop-breathe-think",
-    "title": "Stop, Breathe & Think",
-    "image": "",
-    "description": "Offers mindfulness and meditation activities tailored to user emotions and experiences.",
-    "link": "https://minteddirectory.com"
-  },
-  {
-    "id": "mindfullness-app",
-    "title": "The Mindfulness App",
-    "image": "",
-    "description": "Provides guided and silent meditations with customizable session lengths and reminders.",
-    "link": "https://minteddirectory.com"
-  },
-  {
-    "id": "zenfie",
-    "title": "Zenfie",
-    "image": "",
-    "description": "Offers a variety of meditation techniques, including breathwork, sound baths, and guided journeys.",
-    "link": "https://minteddirectory.com"
+    "id": "aws-cloudwatch",
+    "title": "AWS CloudWatch",
+    "image": {
+      "url": "/images/placeholder.svg",
+      "width": 64,
+      "height": 64
+    },
+    "featured": false,
+    "tags": [
+      "aws",
+      "amazon",
+      "cloud-native",
+      "metrics",
+      "logs"
+    ],
+    "description": "An AWS service that provides monitoring and observability for your cloud resources and applications on AWS, on premises, and on other clouds.",
+    "link": "https://aws.amazon.com/cloudwatch/"
   }
 ]
