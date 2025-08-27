@@ -16,7 +16,7 @@ intersection = false
 
 [directoryUI.grid]
 list = false
-type = "small-card-grid" # options: icon-list, small-card-grid, rectangle-card-grid
+type = "rectangle-card-grid" # options: icon-list, small-card-grid, rectangle-card-grid
 
 [directoryUI.grid.emptyState]
 text = "Seems that this entry is missing from the archives."

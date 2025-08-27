@@ -1,9 +1,9 @@
 # available directory themes:
 # spearmint, peppermint, hemingway, brookmint
-theme = 'brookmint'
+theme = 'spearmint'
 
 [general]
-title = "Meditation Apps"
+title = "Cloud Monitoring Platforms"
 logo = ""
 iconLogo = "tabler:coffee"
 
@@ -23,45 +23,115 @@ title = "{0} Apps"
 placeholder = "Search among {0} listings of this directory :)"
 
 [[directoryData.tags]]
-key = "breathing"
-name = "Breathing"
+key = "apm"
+name = "Application Performance"
 color = "blue"
-emoji = "👃"
-description = "Breathing techniques are a popular feature in meditation apps."
+emoji = "material-symbols:query-stats"
+description = "Application Performance Monitoring."
 
 [[directoryData.tags]]
-key = "sleep"
-name = "Sleep"
+key = "cloud"
+name = "Cloud"
 color = "green"
-emoji = "💤"
-description = "Some apps include music that slowly goes away to help you sleep better and rest."
+emoji = "material-symbols:cloud"
+description = "Cloud infrastructure monitoring."
 
 [[directoryData.tags]]
-key = "meditation"
-name = "Meditation"
+key = "containers"
+name = "Containers"
 color = "purple"
-emoji = "🧘‍♂️"
-description = "A meditation for your life. It's a great way to relax and clear your mind. It's also a great way to improve your sleep."
+emoji = "material-symbols:deployed-code-outline"
+description = "Container monitoring and orchestration."
 
 [[directoryData.tags]]
-key = "yoga"
-name = "Yoga"
+key = "cost"
+name = "Cost"
 color = "purple"
-emoji = "🧘‍♂️"
-description = "A yoga for your life."
+emoji = "material-symbols:attach-money"
+description = "Cost management and optimization."
 
 [[directoryData.tags]]
-key = "timer"
-name = "Timer"
+key = "database"
+name = "Databases"
 color = "green"
-emoji = "⏰"
-description = "Timers can be used to track how much you meditate."
+emoji = "material-symbols:database"
+description = "Database monitoring and performance."
+
+[[directoryData.tags]]
+key = "infrastructure"
+name = "Infrastructure"
+color = "green"
+emoji = "material-symbols:lan"
+description = "Infrastructure monitoring."
+
+[[directoryData.tags]]
+key = "kubernetes"
+name = "Kubernetes"
+color = "green"
+emoji = "material-symbols:cloud-circle"
+description = "Kubernetes monitoring."
+
+[[directoryData.tags]]
+key = "monitoring"
+name = "General Monitoring"
+color = "green"
+emoji = "material-symbols:monitoring"
+description = "General monitoring."
+
+[[directoryData.tags]]
+key = "network"
+name = "Network"
+color = "green"
+emoji = "material-symbols:public"
+description = "Network monitoring."
+
+[[directoryData.tags]]
+key = "open-source"
+name = "Open-Source"
+color = "green"
+emoji = "material-symbols:code"
+description = "Open-source monitoring solutions."
+
+[[directoryData.tags]]
+key = "performance"
+name = "Performance"
+color = "green"
+emoji = "material-symbols:speed"
+description = "Performance monitoring."
+
+[[directoryData.tags]]
+key = "security"
+name = "Security"
+color = "green"
+emoji = "material-symbols:security"
+description = "Security monitoring."
+
+[[directoryData.tags]]
+key = "server"
+name = "Server"
+color = "green"
+emoji = "material-symbols:dns"
+description = "Server monitoring."
+
+[[directoryData.tags]]
+key = "uptime"
+name = "Uptime Monitoring"
+color = "green"
+emoji = "material-symbols:timer"
+description = "Uptime monitoring and alerting."
+
+[[directoryData.tags]]
+key = "website"
+name = "Website Monitoring"
+color = "green"
+emoji = "material-symbols:language"
+description = "Website monitoring."
 
 [header.banner]
-show = true
-text = "Follow mark_bruderer on twitter."
-link = "https://x.com/intent/follow?screen_name=mark_bruderer"
-brandText = "AI Agent Libraries"
+show = false
+text = ""
+link = "https://x.com/"
+brandText = ""
 
 [header.navbar]
 colorModeSelector = true
@@ -70,20 +140,64 @@ colorModeSelector = true
 name = "Blog"
 href = "/blog"
 
-[[header.navbar.links]]
-name = "Analytics"
-href = "https://us.posthog.com/shared/vHlGCcSqPjGH4r_QijaXSETtmN9J-g"
-target = "_blank"
-
-[header.actionButton]
-text = "Submit an app"
-href = "https://tally.so"
-
 [footer]
-description = "Best directory for my niche."
+description = "Cloud monitoring platform directory."
 
 [footer.socials.x]
-link = "https://x.com/mark_bruderer"
+link = "https://x.com/"
 
 [footer.socials.youtube]
-link = "https://www.youtube.com/@mark_hacks"
+link = "https://www.youtube.com/"
+
+[listings]
+pageHeader = 'none' # none, title
+
+[directoryUI]
+
+[directoryUI.search]
+showCount = true
+icon = "tabler:bow"
+
+[directoryUI.search.tags]
+display = "show-all" # options: none,select,show-all
+intersection = false
+
+[directoryUI.grid]
+list = false
+type = "small-card-grid" # options: icon-list, small-card-grid, rectangle-card-grid
+
+[directoryUI.grid.emptyState]
+text = "Seems that this entry is missing from the archives."
+type = "button"          # options: button, simple, link
+icon = "tabler:exclamation-mark"
+
+[directoryUI.grid.card]
+image = true
+
+[directoryUI.grid.submit]
+show = true
+first = false
+title = "Submit a template"
+description = "Submit a template to show off a good project to other people."
+hideable = true
+
+[directoryUI.featured]
+showOnAllPages = true
+showOnSide = true
+icon = "tabler:star"
+labelForCard = "Featured ✨"
+
+[ui]
+
+[ui.icons]
+dark = "tabler:moon"
+light = "tabler:sun"
+youtube = "tabler:brand-youtube"
+x = "tabler:brand-twitter"
+instagram = "tabler:brand-instagram"
+facebook = "tabler:brand-facebook"
+github = "tabler:brand-github"
+
+[layout]
+sidebar = false
+emoji = false

@@ -1,5 +1,6 @@
 ---
 import themeConfig from "@util/themeConfig";
+import { Icon } from "astro-icon/components";
 const tags = themeConfig.directoryData.tags;
 const emoji = themeConfig.layout.emoji;
 ---
@@ -13,18 +14,19 @@ const emoji = themeConfig.layout.emoji;
   >
     <span
       class="border border-gray-200 dark:border-gray-600 rounded h-7 w-7 inline-flex items-center justify-center"
-      >{emoji && "🏠"}</span
+      ><Icon name="material-symbols:home" /></span
     >
     <span>Home</span>
   </a>
   {
     tags.map((tag) => (
       <a
-        class="flex items-center text-sm font-medium text-gray-700 dark:text-gray-300 gap-2 px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700"
+        class="flex items-center text-sm font-medium text-gray-700 dark:text-gray-300 gap-2 px-4 py-2 hover:bg-gray-100 
+ dark:hover:bg-gray-700"
         href={`/tags/${tag.key}`}
       >
         <span class="border border-gray-200 dark:border-gray-600 rounded h-7 w-7 inline-flex items-center justify-center">
-          {tag.emoji && tag.emoji}
+          {tag.emoji && <Icon name={tag.emoji} class="h-5 w-5" />}
         </span>
         <span>{tag.name}</span>
       </a>

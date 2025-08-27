@@ -36,7 +36,7 @@ const headerSchema = z.object({
   actionButton: z.object({
     text: z.string(),
     href: z.string().url(),
-  }),
+  }).optional(),
 });
 
 const footerSchema = z.object({
