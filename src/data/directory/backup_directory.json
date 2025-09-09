@@ -1,0 +1,295 @@
+[
+  {
+    "id": "cloudzero_unit_cost",
+    "title": "CloudZero",
+    "image": "../images/clou",
+    "tags": ["cost", "monitoring", "cloud"],
+    "description": "Provides unique insights into cloud computing costs through unit cost analysis. Offers granular and contextual cost insights by role, including cost per customer, cost per environment, cost per team, and cost per feature.",
+    "link": "https://www.cloudzero.com",
+    "featured": true
+  },
+  {
+    "id": "xosphere",
+    "title": "Xosphere",
+    "image": "../images/calm.png",
+    "tags": ["cost", "monitoring", "cloud"],
+    "description": "Instance Orchestrator automatically replaces On-Demand Instances with Spot Instances when available for reasonable price. Supports applications in any language, containers, and various data stores.",
+    "link": "https://xosphere.io"
+  },
+  {
+    "id": "prosperops",
+    "title": "ProsperOps",
+    "image": "../images/calm.png",
+    "tags": ["cost", "monitoring", "cloud"],
+    "description": "Autonomous savings management platform that helps save up to 40% more on Savings Plans and Reserved Instances. Reduces commitment risk for short-term projects.",
+    "link": "https://www.prosperops.com"
+  },
+  {
+    "id": "aws-cost-explorer",
+    "title": "AWS Cost Explorer",
+    "image": "../images/calm.png",
+    "tags": ["cost", "monitoring", "cloud"],
+    "description": "Forms the backbone of cost monitoring and reporting in AWS. Features easy-to-use interface, combines metrics from multiple AWS services, and provides 13-month historical data for forecasting.",
+    "link": "https://aws.amazon.com/aws-cost-management/aws-cost-explorer/"
+  },
+  {
+    "id": "cloudability",
+    "title": "Cloudability",
+    "image": "../images/calm.png",
+    "tags": ["cost", "monitoring", "cloud"],
+    "description": "Traditional approach to tracking costs across AWS, GCP, and Azure. Provides budgeting, forecasting, cost-saving recommendations, and anomaly alerts.",
+    "link": "https://www.apptio.com/products/cloudability"
+  },
+  {
+    "id": "new-relic",
+    "title": "New Relic",
+    "image": "../images/new-relic-logo-png_seeklogo-441431.png",
+    "tags": ["apm", "monitoring", "performance"],
+    "description": "Modern, full-stack monitoring platform for mobile, cloud, web, and on-premises environments. Supports real users, microservices, logs, traces, synthetics, and multi-cloud resource monitoring.",
+    "link": "https://newrelic.com",
+    "featured": true
+  },
+  {
+    "id": "appdynamics",
+    "title": "AppDynamics",
+    "image": "../images/calm.png",
+    "tags": ["apm", "monitoring", "performance"],
+    "description": "Gathers, visualizes, tracks, and reports insights into application performance at code execution level. Supports over six programming languages and automatically identifies application topologies.",
+    "link": "https://www.appdynamics.com"
+  },
+  {
+    "id": "retrace",
+    "title": "Retrace",
+    "image": "../images/calm.png",
+    "tags": ["apm", "monitoring", "performance"],
+    "description": "Designed for developers to find app performance bottlenecks with code profiling. Supports complete transaction tracing including SQL queries and async code performance.",
+    "link": "https://stackify.com/retrace"
+  },
+  {
+    "id": "sumo-logic",
+    "title": "Sumo Logic",
+    "image": "../images/calm.png",
+    "tags": ["apm", "monitoring", "performance"],
+    "description": "Specializes in comprehensive application monitoring for performance and security concerns. Collects data from workloads running across clouds in hybrid and multi-cloud setups.",
+    "link": "https://www.sumologic.com"
+  },
+  {
+    "id": "dynatrace",
+    "title": "Dynatrace",
+    "image": "../images/dynatrace-logo-png_seeklogo-492168.png",
+    "tags": ["infrastructure", "monitoring", "cloud"],
+    "description": "Provides public, private, hybrid cloud, and serverless monitoring solutions. Delivers continuous auto-discovery of VMs, hosts, containers, Kubernetes, and cloud services.",
+    "link": "https://www.dynatrace.com",
+    "featured": true
+  },
+  {
+    "id": "sematext",
+    "title": "Sematext",
+    "image": "../images/calm.png",
+    "tags": ["infrastructure", "monitoring", "cloud"],
+    "description": "Uses metrics, events, logs, and events data to assess IT infrastructure health. Supports over 100 integrations and provides continuous, real-time monitoring at code execution level.",
+    "link": "https://sematext.com"
+  },
+  {
+    "id": "site24x7",
+    "title": "Site24X7",
+    "image": "../images/calm.png",
+    "tags": ["infrastructure", "monitoring", "cloud"],
+    "description": "Evolved into robust application performance monitoring service with web transactions, real user, server, network, and resource utilization monitoring capabilities.",
+    "link": "https://www.site24x7.com"
+  },
+  {
+    "id": "dx-infrastructure-manager",
+    "title": "DX Infrastructure Manager",
+    "image": "../images/calm.png",
+    "tags": ["infrastructure", "monitoring", "cloud"],
+    "description": "Broadcom's platform that enables monitoring and management from single pane of glass. Offers open architecture and zero-touch configuration with automated alarm policies.",
+    "link": "https://www.broadcom.com/products/software/enterprise-software/infrastructure-management"
+  },
+  {
+    "id": "solarwinds",
+    "title": "SolarWinds",
+    "image": "../images/calm.png",
+    "tags": ["server", "monitoring", "cloud"],
+    "description": "Monitors instances and VMs in AWS and Azure clouds. Orion Platform retrieves in-depth status, resource usage, and IP address insights across hybrid setups.",
+    "link": "https://www.solarwinds.com"
+  },
+  {
+    "id": "datadog",
+    "title": "DataDog",
+    "image": "../images/datadog-logo-png_seeklogo-349920.png",
+    "tags": ["server", "monitoring", "cloud"],
+    "description": "Leverages over 500 data sources to turn metrics, logs, events, and traces into server health intelligence. Perfect for real-time monitoring and management of hosts and containers.",
+    "link": "https://www.datadoghq.com",
+    "featured": true
+  },
+  {
+    "id": "manageengine",
+    "title": "ManageEngine",
+    "image": "../images/calm.png",
+    "tags": ["database", "monitoring"],
+    "description": "Applications Manager helps automatically discover, group, and monitor code-level insights for in-memory, NoSQL, RDBMS, and big data storage in real-time.",
+    "link": "https://www.manageengine.com"
+  },
+  {
+    "id": "redgate",
+    "title": "Redgate",
+    "image": "../images/calm.png",
+    "tags": ["database", "monitoring"],
+    "description": "Database-specific performance, availability, and security monitoring platform. Supports .NET, Azure, and SQL Server environments with on-premises or cloud deployment.",
+    "link": "https://www.red-gate.com"
+  },
+  {
+    "id": "nagios-xi-network-analyzer",
+    "title": "Nagios XI Network Analyzer",
+    "image": "../images/calm.png",
+    "tags": ["network", "monitoring"],
+    "description": "Monitors Linux-based services, switches, apps, and servers. Works with Nagios Core 6 and supports thousands of community plugins for network traffic analysis.",
+    "link": "https://www.nagios.com/products/nagios-xi"
+  },
+  {
+    "id": "paessler-prtg-network-monitoring",
+    "title": "Paessler PRTG Network Monitoring",
+    "image": "../images/calm.png",
+    "tags": ["network", "monitoring"],
+    "description": "Network monitoring platform with integrated technologies. Provides SNMP, WMI, packet sniffing, and over 300 map objects for real-time dashboards.",
+    "link": "https://www.paessler.com/prtg"
+  },
+  {
+    "id": "wiz",
+    "title": "Wiz",
+    "image": "../images/calm.png",
+    "tags": ["security", "cloud", "monitoring"],
+    "description": "Agentless cloud security platform that connects via API to all major cloud providers. Continuously analyzes misconfigurations, secrets, identities, vulnerabilities, and network exposure.",
+    "link": "https://www.wiz.io"
+  },
+  {
+    "id": "orca-security",
+    "title": "Orca Security",
+    "image": "../images/calm.png",
+    "tags": ["security", "cloud", "monitoring"],
+    "description": "Agentless cloud security and compliance tool for AWS, GCP, Azure, or Kubernetes. Uses SideScanning technology to retrieve data from workload's runtime block storage.",
+    "link": "https://orca.security"
+  },
+  {
+    "id": "lacework",
+    "title": "LaceWork",
+    "image": "../images/calm.png",
+    "tags": ["security", "cloud", "monitoring"],
+    "description": "Uses AI and automation to provide continuous cloud security. Correlates security threats across multiple environments like AWS, GCP, and Azure with contextual prioritization.",
+    "link": "https://www.lacework.com"
+  },
+  {
+    "id": "fugue",
+    "title": "Fugue",
+    "image": "../images/calm.png",
+    "tags": ["security", "cloud", "monitoring"],
+    "description": "Unified Policy Engine for handling cloud compliance and security before and after deployments. Features cloud-native, IAM, and Infrastructure-as-Code security.",
+    "link": "https://snyk.io/fugue"
+  },
+  {
+    "id": "threat-stack",
+    "title": "Threat Stack",
+    "image": "../images/calm.png",
+    "tags": ["security", "cloud", "monitoring"],
+    "description": "Security Operations Center enables end-to-end security oversight from single platform. Uses machine learning and continuous monitoring to surface anomalous behavior.",
+    "link": "https://www.f5.com/labs/articles/security-spotlight/what-is-threat-stack"
+  },
+  {
+    "id": "sematext-synthetics",
+    "title": "Sematext Synthetics",
+    "image": "../images/calm.png",
+    "tags": ["website", "monitoring", "uptime"],
+    "description": "Monitors and tests website availability, web transactions, and APIs from multiple locations. Tracks Web Core Vitals, SSL certificates, and page load performance.",
+    "link": "https://sematext.com/synthetics"
+  },
+  {
+    "id": "uptime",
+    "title": "Uptime",
+    "image": "../images/calm.png",
+    "tags": ["website", "monitoring", "uptime"],
+    "description": "Offers robust website availability, performance, speed, errors, and bounce rate monitoring. Provides real user monitoring to uncover user experience issues.",
+    "link": "https://uptime.com"
+  },
+  {
+    "id": "calibreapp",
+    "title": "Calibreapp",
+    "image": "../images/calm.png",
+    "tags": ["website", "monitoring", "uptime"],
+    "description": "Simple yet powerful platform to test, alert, and analyze websites' page speed from 17 locations globally. Includes 40 different metrics including Core Web Vitals.",
+    "link": "https://calibreapp.com"
+  },
+  {
+    "id": "grafana-cloud",
+    "title": "Grafana Cloud",
+    "image": "../images/calm.png",
+    "tags": ["open-source", "monitoring"],
+    "description": "Popular open-source data visualization and monitoring stack for cloud and self-managed infrastructure. Displays OS level telemetry including Memory Usage, CPU Load, IOSTAT.",
+    "link": "https://grafana.com/products/cloud",
+    "featured": true
+  },
+  {
+    "id": "elasticelk",
+    "title": "Elastic/ELK",
+    "image": "../images/calm.png",
+    "tags": ["open-source", "monitoring"],
+    "description": "Stack including Elasticsearch (search engine), Logstash (data processing pipeline), Kibana (visualization), and Beats (data shipper) for comprehensive monitoring.",
+    "link": "https://www.elastic.co/what-is/elk-stack"
+  },
+  {
+    "id": "chronosphere",
+    "title": "Chronosphere",
+    "image": "../images/calm.png",
+    "tags": ["open-source", "monitoring"],
+    "description": "Cloud-native observability platform that reduces monitoring data by 50% to save on storage and transfer fees. Supports distributed tracing and query acceleration.",
+    "link": "https://chronosphere.io"
+  },
+  {
+    "id": "zabbix",
+    "title": "Zabbix",
+    "image": "../images/calm.png",
+    "tags": ["open-source", "monitoring"],
+    "description": "Enterprise-class platform for infrastructure, applications, and service monitoring. Provides real-time tracking, multi-tenant, and SNMP capabilities for organizations of all sizes.",
+    "link": "https://www.zabbix.com"
+  },
+  {
+    "id": "nagios-core",
+    "title": "Nagios Core",
+    "image": "../images/calm.png",
+    "tags": ["open-source", "monitoring"],
+    "description": "Monitoring engine with over 50 plugins, frontends, and add-ons. Monitors web servers, applications, websites, networks, and services across Linux and Windows.",
+    "link": "https://www.nagios.org/projects/nagios-core"
+  },
+  {
+    "id": "sensu",
+    "title": "Sensu",
+    "image": "../images/calm.png",
+    "tags": ["open-source", "monitoring"],
+    "description": "Ruby-based infrastructure, application, server, network, virtual machines, Kubernetes, and services monitoring. Integrates with alerting tools like Slack and PagerDuty.",
+    "link": "https://sensu.io"
+  },
+  {
+    "id": "kubernetes-native-tools",
+    "title": "Kubernetes (native tools)",
+    "image": "../images/calm.png",
+    "tags": ["containers", "monitoring", "kubernetes"],
+    "description": "Open-source container orchestration platform with native monitoring tools including resources metrics pipeline and full metrics pipeline for containerized applications.",
+    "link": "https://kubernetes.io/docs/tasks/debug-application-cluster/resource-monitoring/"
+  },
+  {
+    "id": "cloudzero",
+    "title": "CloudZero",
+    "image": "../images/calm.png",
+    "tags": ["containers", "monitoring", "kubernetes"],
+    "description": "Provides granular, actionable cost insight for Kubernetes. Collects cost data across applications and infrastructure, breaking down costs by service, deployment, and namespace.",
+    "link": "https://www.cloudzero.com"
+  },
+  {
+    "id": "densify",
+    "title": "Densify",
+    "image": "../images/calm.png",
+    "tags": ["containers", "monitoring", "kubernetes"],
+    "description": "Container Optimizer tool automatically sets container limits and requests. Configures scaling groups to continuously optimize Kubernetes environment with integrations to multiple tools.",
+    "link": "https://www.densify.com"
+  }
+]
